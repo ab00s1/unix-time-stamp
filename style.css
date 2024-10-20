@@ -1,0 +1,58 @@
+body {
+  background-color: whitesmoke;
+}
+
+table {
+  margin-top: 48px;
+  display: none;
+}
+
+.container {
+    height: 75vh;
+  display: flex;
+  gap: 15%;
+  flex-direction: column;
+}
+
+tr th,
+td {
+  padding-block: 16px;
+}
+
+tr th {
+  text-align: left;
+  font-size: x-large;
+}
+
+input {
+  height: 46px;
+  width: 40vw;
+  font-size: 28px;
+  padding-inline: 12px;
+  background-color: #222;
+  color: white;
+  border-radius: 12px;
+  border: 0;
+  outline: 0;
+}
+
+input::placeholder {
+  color: gray;
+  font-size: 14px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 6px 22px;
+  font-family: cursive;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(255, 205, 217);
+}
+
+.running-time h4 {
+  margin: 0;
+  font-size: x-large;
+  color: green;
+}
